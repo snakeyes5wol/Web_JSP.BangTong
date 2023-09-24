@@ -5,10 +5,10 @@
   Time: 오후 11:49
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <%!
     public int sum(int a) {
-        int s = 0, i = 1;
+        int s = 0, i;
         for (i = 0; i <= a; i++) s += i;
         return s;
     }
